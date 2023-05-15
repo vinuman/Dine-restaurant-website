@@ -172,3 +172,74 @@ main {
   top: 70%;
   right: 2%;
 }
+
+.highlights {
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  background-color: var(--cod-gray);
+}
+
+.highlight-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-left > img {
+  margin-bottom: 6rem;
+  margin-right: 40rem;
+}
+
+.highlight-left > h1 {
+  width: 70%;
+  font-size: 4.8rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.highlight-left > p {
+  font-size: 2rem;
+  color: #fff;
+  width: 70%;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+}
+
+.highlight-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 12rem;
+}
+
+.highlight-item {
+  display: flex;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid var(--beaver);
+}
+
+.highlight-item > img {
+  width: 12.8rem;
+  height: 9.6rem;
+}
+
+.highlight-item-para {
+  color: #fff;
+}
+
+.highlight-item-para > h2 {
+  width: 70%;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+.highlight-item-para > p {
+  font-size: 1.6rem;
+  width: 60%;
+  font-weight: lighter;
+  padding-left: 2rem;
+}
