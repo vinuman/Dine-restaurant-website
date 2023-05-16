@@ -23,6 +23,7 @@ header {
   height: 70rem;
   display: flex;
   position: relative;
+  width: 100%;
 }
 
 .header-left {
@@ -50,15 +51,20 @@ header {
   color: #fff;
   font-size: 2rem;
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 15%;
   width: 30%;
   line-height: 3rem;
   font-weight: lighter;
+  opacity: 0.6;
+}
+
+.header-right {
+  width: 80%;
 }
 
 .header-right > img {
-  max-width: 100%;
+  width: 100%;
   height: 70rem;
   object-fit: cover;
 }
@@ -74,7 +80,7 @@ header {
   text-transform: uppercase;
   cursor: pointer;
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 15%;
 }
 
@@ -221,7 +227,7 @@ main {
   display: flex;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  border-bottom: 1px solid var(--beaver);
+  border-bottom: 1px solid rgba(158, 127, 102, 0.3);
 }
 
 .highlight-item > img {
