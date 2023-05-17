@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Main from "./Main";
 import Highlights from "./Highlights";
+import Events from "./Events";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Main />
       <Highlights />
+      <Events />
     </div>
   );
 }

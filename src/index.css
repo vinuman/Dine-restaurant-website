@@ -254,3 +254,22 @@ main {
   letter-spacing: 0.2rem;
   line-height: 2rem;
 }
+
+.events {
+  border: 1px solid red;
+  position: relative;
+}
+
+.events > img {
+  position: absolute;
+}
+
+.event-pattern1 {
+  left: -30%;
+}
+.event-pattern2 {
+  left: 10%;
+}
+
+.events-left > img {
+}
